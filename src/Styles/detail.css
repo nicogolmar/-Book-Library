@@ -1,0 +1,108 @@
+
+
+
+.detail-container{
+    min-width: 100%;
+    min-height: 100vh ;
+    caret-color:transparent;
+    padding-bottom: 40px;
+    background-image: url("https://media.istockphoto.com/photos/bookshelves-in-the-library-with-old-books-3d-render-picture-id1180993120?b=1&k=20&m=1180993120&s=612x612&w=0&h=HgMMjkN_ZojsEGyfAO83LU_DF5eanZ7DVv1ChTWlIaw=");
+     background-repeat:no-repeat ;
+     background-position: center;
+     background-size: cover;
+     color: white !important;
+     text-align: center;
+     margin: auto;
+}
+
+.row-container{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.content-description{
+    padding-top: 70px;
+    align-self:center;
+    align-items: center; 
+}
+
+.detail-img{
+    height: 480px;
+    width: 360px;
+}
+
+.detail-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 530;
+    font-size: 90px;
+     color: white !important;
+}
+
+.detail-description{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+     color: white !important;
+}
+
+.detail-price{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    width: 200px;
+    padding-top: 60px;
+    color: white !important;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ant-btn{
+   margin-top: 25px;
+   width: 100px;
+}
+
+.update-button{
+    align-items: center;
+    padding-right: 5px;
+    border: 5px solid red;
+}
+
+.ut{
+    margin-top: -60px;
+}
+
+.gp{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 450px) {
+    .detail-title{
+        width: 70%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 50%;
+        font-size: 330%;
+        word-wrap: break-word;
+        word-break: break-all;
+         color: white !important;
+    }
+
+    .detail-description{
+        font-weight: 50%;
+        font-size: 180%;
+
+    }
+
+    .detail-img{
+        height: 150%;
+        width: 150%;
+        margin:auto;
+    }
+}

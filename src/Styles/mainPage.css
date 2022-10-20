@@ -1,0 +1,125 @@
+.main-container{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/photos/bookshelves-in-the-library-with-old-books-3d-render-picture-id1180993120?b=1&k=20&m=1180993120&s=612x612&w=0&h=HgMMjkN_ZojsEGyfAO83LU_DF5eanZ7DVv1ChTWlIaw=");
+    caret-color:transparent;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+
+
+.books-container{
+      margin-top: 56px;
+      min-height:100vh ;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .btn-main{
+      height: 100px;
+      width: 100px;
+      background-color: white;
+      border: 3px solid black;
+      margin-left: 50px;
+      margin-top: 100px;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 20%;
+      min-height: 35%;
+      background-image: url("https://images.all-free-download.com/images/graphiclarge/blank_book_311778.jpg");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 20px;
+      border: 3px dashed rgb(17, 0, 60);
+    }
+
+    .center .inputbox {
+      position: relative;
+      width: 250px;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+    textarea, input::placeholder{
+      color: rgb(48, 46, 46);
+      font-weight: 500;
+    }
+
+    textarea, input{
+      color: #000;
+      font-weight: 500;
+    }
+    .center .inputbox input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 92%;
+      border: 2px solid #000;
+      outline: none;
+      background: none;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 1.2em;
+    }
+  
+  
+    .center .inputbox:last-child {
+      margin-bottom: 0;
+    }
+    .center .inputbox span {
+      position: absolute;
+      top: 14px;
+      left: 20px;
+      font-size: 1em;
+      transition: 0.6s;
+      font-family: sans-serif;
+    }
+ 
+  
+    
+    .center .inputbox [type="submit"] {
+      width: 50%;
+      background: rgb(42, 44, 45);
+      color: #fff;
+      border: #fff;
+    }
+    .center .inputbox:hover [type="submit"] {
+      background: linear-gradient(45deg, rgb(228, 230, 225), rgb(0, 20, 41));
+    }
+
+
+    .inputbox [type="reset"]{
+      width: 50%;
+      background: rgb(42, 44, 45);
+      color: #fff;
+      border: #fff;
+    }
+
+    .inputbox:hover [type="reset"] {
+      background: linear-gradient(45deg, rgb(228, 230, 225), rgb(0, 20, 41));
+    }
+
+    .bl{
+      margin-top: -30px;
+    }
+
+    .vl{
+      margin-top: 20px;
+    }
+
